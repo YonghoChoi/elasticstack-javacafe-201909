@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 DIR_NAME=programs
 if [ $1 = "elasticsearch" ] ; then
   nohup $ELASTICSTACK_HOME/$DIR_NAME/$1/bin/$1 > $ELASTICSTACK_HOME/$DIR_NAME/$1/$1.log 2>&1 &
