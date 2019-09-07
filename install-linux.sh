@@ -44,6 +44,6 @@ echo "export ELASTICSTACK_HOME=$(pwd)" >> $ENV_PATH
 echo ". $(pwd)/$FILENAME" >> ~/.bashrc
 chmod +x $ENV_PATH
 
-sourceh ~/.bashrc
+source ~/.bashrc
 echo "Elasticstack install complete!"
 echo "Home path : $ELASTICSTACK_HOME"
